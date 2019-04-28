@@ -1,0 +1,28 @@
+main{
+	margin-top: 56px;
+}
+.wizard-col{
+	border: solid 1px #333;
+}
+.wizard-card {
+     min-height: auto; 
+     background-color: #FFFFFF; 
+     box-shadow: none; 
+     border-radius: 0; 
+     padding: 0; 
+     border: none;
+}
+
+@media (max-width: 768px){
+	.wizard-navigation ul{
+		display: flex !important;
+		justify-content: space-between;
+	}
+	.wizard-navigation li {
+		width: auto !important
+	}
+	.moving-tab{
+		/*width: 50% !important;*/
+		font-size: 11px 
+	}
+}
